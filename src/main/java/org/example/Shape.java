@@ -1,12 +1,14 @@
 package org.example;
 
-public class CPoint{
+public class Shape extends CPoint {
 
     private double Area = 0;
     private double Perimeter = 0;
 
-    public CPoint() {
+    public Shape(double x, double y) {
+        super(x, y);
     }
+
 
     public double getArea() {
         return Area;
